@@ -1,0 +1,79 @@
+@font-face {
+font-family: OpenSans;
+font-style: normal;
+font-weight: normal;
+src: url("OpenSans-Regular.ttf") format("opentype");
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background: #182848;
+	font-family: OpenSans;
+	font-size: 1.7em;
+	color: #fff;
+}
+a {
+	text-decoration: none;
+	color: #fff;
+}
+.header {
+	background: rgba(255,255,255,0.1);
+}
+.container{
+	margin:0 auto;
+	width: 1120px;
+}
+.flat {
+	height: 100px;
+	padding-top: 100px;
+}
+.forty {
+	width: 35%;
+	display: inline-block;
+}
+.flat h1,.flat p {
+	font-size: 2em;
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+}
+.flat img {
+	float: right;
+}
+.flat p {
+	font-weight: normal;
+	font-size: 0.6em;
+	letter-spacing:1px;
+	margin: 20px 0;
+}
+.logo-font {
+	font-weight: bold;
+}
+.header .nav-links {
+	font-size: 0.7em;
+	text-align: right;
+	float: right;
+	margin: 5px 0 0 0;
+}
+.nav div {
+	display: inline;
+}
+.nav-links a {
+	margin: 0 20px;
+	vertical-align: middle;
+}
+.clearfix {
+	overflow:auto;
+}
+.explore {
+	background: #F08335;
+	padding: 5px 40px;
+	font-size: 0.8em;
+}
+.vertical-spacer{
+	margin: 100px 0;
+}
+.time {
+	text-align: center;
+}
